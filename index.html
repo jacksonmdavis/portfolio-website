@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Coding Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Navbar populated with nav.html content -->
+<div id="nav-placeholder"></div>
+<!-- <script>
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('nav-placeholder').innerHTML = data;
+    });
+</script> -->
+<!-- <noscript> -->
+    <nav class="navbar">
+        <ul>
+            <a href="index.html" style="color: #f39c12"><h3 style="display: inline; margin-right: 15px;">Coding</a></h3>
+            <a href="architecture.html"><h3 style="display: inline; margin-right: 15px;">Architecture</a></h3>
+            <a href="music.html"><h3 style="display: inline; margin-right: 15px;">Music</a></h3>
+            <a href="media.html"><h3 style="display: inline; margin-right: 15px;">Media</a></h3>
+            <a href="contact.html"><h3 style="display: inline; margin-right: 15px;">About/Contact</a></h3>
+
+        </ul>
+    </nav>
+<!-- </noscript> -->
+
+<body>
+    <div class="container">
+        <h1>Coding Portfolio</h1>
+        <p>This is where I showcase my projects and skills.</p>
+
+        <div class="container my-4">
+            <h2 class="text-left">Recent Projects</h2>
+
+            <div class="row mb-3">
+                <div class="col-md-3 min-width small-break">
+                    <img src="images\bartender-screenshot.jpg" class="rounded project-img bordered-image" alt="Project 1">
+                </div>
+                <div class="col-md-8 d-flex align-items-top">
+                    <div class="project-description">
+                        <p>
+                            <strong class="project-title">AI Bartender</strong> - A custom drink recommendation engine for use at a cocktail and wine bar.  Currently working on the interface to get ready for deployment.  Uses RAG with custom menu data to describe and recommend drinks both on- and off-menu based on user's provided preferences and/or mood. 
+                        </p>
+                        
+                        <p class = "small-break">
+                            <strong class="project-title">Skills/tools used</strong> - HuggingFace Inference APIs, RAG, Prompt Engineering, Data wrangling, JSON Parsing, HTML/CSS/Javascript
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-3 min-width small-break">
+                    <img src="images\website screenshot.jpg" class="rounded project-img bordered-image" alt="Project 1">
+                </div>
+                <div class="col-md-8 d-flex align-items-top">
+                    <div class="project-description">
+                        <p><strong class="project-title">Porfolio Website</strong> - At risk of getting recursive, this is the project you’re currently viewing. I built this website from scratch, and it is registered and hosted with AWS tools. Candidly, some AI assistance was used for the web design.</p>
+                        
+                        <p><strong class="project-title">Skills/tools used</strong> - HTML, CSS, Bootstrap, AWS Route 53, AWS S3, Responsive Web Design, AI Assisted Web Development</p>
+                    </div>
+                </div>
+            </div>
+
+        
+            <!-- Repeat above <div class="row"> block for more projects -->
+        </div>
+        
+
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>
