@@ -1,7 +1,7 @@
 .navbar{
-    background-color: #34495e; /* Dark background */
-    color: #26e40d; /* Light text */
-    padding: 10px 10px; /* Add some padding */
+    background-color: #34495e;
+    color: #26e40d;
+    padding: 10px 10px;
     font-size: 26px;
     padding-left: 100px;
 }
@@ -21,12 +21,12 @@
 }
 
 .project-description {
-    text-align: left;   /* Left-aligns description text */
-    margin-left: 15px;  /* Adds a bit of space between image and text */
+    text-align: left; 
+    margin-left: 15px;
 }
 
 .project-title {
-    color: #f39c12; /* Accent color for headings */
+    color: #f39c12;
 }
 
 .small-break {
