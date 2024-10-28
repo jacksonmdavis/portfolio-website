@@ -1,8 +1,6 @@
 .navbar{
-    background-color: #34495e;
-    color: #26e40d;
-    padding: 10px 10px;
-    font-size: 26px;
+    background-color: rgba(29, 42, 54, 1.0);
+    font-size: 20px;
     padding-left: 100px;
 }
 
@@ -10,14 +8,14 @@
     width: 100%;        
     max-width: 250px;   
     height: auto;       
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .bordered-image {
-    border: 1px solid #f39c12;
+    border: 1px solid #4b3716;
     border-radius: 4px;
-    padding: 0px;
-    margin-left: 15px
+    /* padding: 0px; */
+    margin-left: 0px
 }
 
 .project-description {
@@ -27,56 +25,77 @@
 
 .project-title {
     color: #f39c12;
+    font-size: 20px;
 }
 
 .small-break {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .min-width {
     min-width: 250px; 
 }
 
+.translucent-bg {
+    background-color: rgba(34, 34, 48, 0.8);
+    padding: 20px;
+}
 
+.badge-border {
+    border: 1px solid #ffffff;
+    background-color: rgba(34, 34, 48, 0.0);
+    height: 152px;
+    width: 152px;
+    /* position: relative;
+    z-index: 10; */
+}
+
+/* :root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  } */
 
 body {
-    background-color: #2c3e50; /* Dark background */
-    color: #ecf0f1; /* Light text */
-    font-family: 'Jersey 10', sans-serif; /* Use the Roboto font */
-    font-size: 24px;
+    background-color: #000000;
+    color: #ecf0f1;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-size: 18px; */
+    background-image: url("images/star-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h2, h3 {
+    color: #f39c12; /* Accent color for headings */
+    font-size: 30px;
 
 
 }
 
-h1, h2, h3 {
+h1 {
     color: #f39c12; /* Accent color for headings */
-    font-size: 35px;
-
-
+    font-size: 40px;
 }
 
 a {
-    color: #5d88a5; /* Link color */
+    color: #f39c12; /* Link color */
 
 }
 
 a:hover {
-    color: #2980b9; /* Link hover color */
+    color: #9e7e27; /* Link hover color */
 
 }
 
-.container {
+/* .container {
     padding: 20px;
-}
-
-p {
-    
-    margin-bottom: 10px;
-    /* Line below Reduces line spacing */
-    line-height: 1.2;
+} */
 
 
-
-}
 
 

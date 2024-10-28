@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="icon" href="images/JD-Favicon.jpg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Coding Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
     <link rel="stylesheet" href="styles.css">
 </head>
+
+
 
 <!-- Navbar populated with nav.html content -->
 <div id="nav-placeholder"></div>
@@ -18,61 +23,174 @@
 <noscript>
     <nav class="navbar">
         <ul>
+            <a href="index.html" style="color: #f39c12;"><h3 style="display: inline; margin-right: 25px;"> &lt;Jackson Davis&gt;</a></h3>
             <a href="index.html" style="color: #f39c12"><h3 style="display: inline; margin-right: 15px;">Coding</a></h3>
             <a href="architecture.html"><h3 style="display: inline; margin-right: 15px;">Architecture</a></h3>
             <a href="music.html"><h3 style="display: inline; margin-right: 15px;">Music</a></h3>
             <a href="media.html"><h3 style="display: inline; margin-right: 15px;">Media</a></h3>
             <a href="contact.html"><h3 style="display: inline; margin-right: 15px;">About/Contact</a></h3>
-
         </ul>
     </nav>
 </noscript>
 
+
 <body>
-    <div class="container">
-        <h1>Coding Portfolio</h1>
-        <p>This is where I showcase my projects and skills.</p>
+    <div class="container translucent-bg">
 
-        <div class="container my-4">
-            <h2 class="text-left">Recent Projects</h2>
-
-            <div class="row mb-3">
-                <div class="col-md-3 min-width small-break">
-                    <img src="images\bartender-screenshot.jpg" class="rounded project-img bordered-image" alt="Project 1">
-                </div>
-                <div class="col-md-8 d-flex align-items-top">
-                    <div class="project-description">
-                        <p>
-                            <strong class="project-title">AI Bartender</strong> - A custom drink recommendation engine for use at a cocktail and wine bar.  Currently working on the interface to get ready for deployment.  Uses RAG with custom menu data to describe and recommend drinks both on- and off-menu based on user's provided preferences and/or mood. 
-                        </p>
-                        
-                        <p class = "small-break">
-                            <strong class="project-title">Skills/tools used</strong> - HuggingFace Inference APIs, RAG, Prompt Engineering, Data wrangling, JSON Parsing, HTML/CSS/Javascript
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-md-3 min-width small-break">
-                    <img src="images\website screenshot.jpg" class="rounded project-img bordered-image" alt="Project 1">
-                </div>
-                <div class="col-md-8 d-flex align-items-top">
-                    <div class="project-description">
-                        <p><strong class="project-title">Porfolio Website</strong> - At risk of getting recursive, this is the project you’re currently viewing. I built this website from scratch, and it is registered and hosted with AWS tools. Candidly, some AI assistance was used for the web design.</p>
-                        
-                        <p><strong class="project-title">Skills/tools used</strong> - HTML, CSS, Bootstrap, AWS Route 53, AWS S3, Responsive Web Design, AI Assisted Web Development</p>
-                    </div>
-                </div>
+        <h1 class="text-left small-break">Credentials</h1>
+        <div class="row">
+            <div class="badge-border">
+                <div data-iframe-width="150" data-iframe-height="150" data-share-badge-id="c22b1f8d-960d-498d-8834-aec83d632268" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
             </div>
 
-        
-            <!-- Repeat above <div class="row"> block for more projects -->
+            <div class="badge-border">
+                <div data-iframe-width="150" data-iframe-height="150" data-share-badge-id="62c68e11-834f-48fe-bfd0-ac574a16889e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+            
+            <div class="badge-border">
+                <div data-iframe-width="150" data-iframe-height="150" data-share-badge-id="e2f5a1f4-bc0d-443b-bab7-ff6273133682" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+        </div>
+
+        <!-- <p style="max-width: 800px;">Current Artificial Intelligence MS student part-time at Johns Hopkins, transitioning to career in 
+            computer science/SWE with focus in AI and machine learning. Fluent in English and Mandarin with broad 
+            technical and non-technical experience in a variety of industries.</p>
+
+        <p class="small-break" style="max-width: 800px;">Trained and experienced in soft-skills-critical roles, with a provable track-record of learning and 
+            excelling quickly in new domains.</p> -->
+    
+        <br>
+        <h1 class="text-left">Coding Projects</h1>
+        <p class="lead small-break"> A few of the personal and school projects I've worked on recently. Check back again later for updates!</p> 
+
+        <div class="row mb-3">
+            <div class="col-md-3 min-width small-break">
+                <div class="d-flex justify-content-center">
+                    <a href="http://ai-bartender.s3-website-us-east-1.amazonaws.com/">
+                        <img src="images/bartender-screenshot.jpg" class="rounded project-img bordered-image" alt="AI Bartender">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">                    
+                    <a href="http://ai-bartender.s3-website-us-east-1.amazonaws.com/">&lt;Project&gt;</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/jacksonmdavis/AI-Bartender">&lt;Source code&gt;</a>
+                </div>
+            </div>
+
+            <div class="col mt-0 d-flex align-items-top">
+                <div class="project-description">
+                    <p>
+                        <a href="http://ai-bartender.s3-website-us-east-1.amazonaws.com"><strong class="project-title">AI Bartender</strong></a> - A custom drink recommendation engine for use at a cocktail and wine bar.  Currently designing interface for deployment.  Uses RAG with custom menu data to describe and recommend drinks both on- and off-menu based on user's provided preferences and/or mood. 
+                    </p>
+                    
+                    <p>
+                        <span class="project-title">Skills/tools used</span> - HuggingFace Inference API, RAG, Prompt Engineering, Data wrangling, Structured Data, HTML/CSS/Javascript
+                    </p>
+                </div>
+            </div>
         </div>
         
+        <div class="row mb-3">
+            <div class="col-md-3 min-width small-break">
+                <div class="d-flex justify-content-center">
+                    <a href="https://github.com/jacksonmdavis/portfolio-website">
+                        <img src="images\website-screenshot.jpg" class="rounded project-img bordered-image" alt="Portfolio Website">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">                    
+                    <a href="#">&lt;Project&gt;</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/jacksonmdavis/portfolio-website">&lt;Source code&gt;</a>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-top">
+                <div class="project-description">
+                    <p>
+                        <a href="https://github.com/jacksonmdavis/portfolio-website"><strong class="project-title">Portfolio Website</strong></a> - At risk of getting recursive, this is the project you're currently viewing. I built this website from scratch, and it is registered with and hosted on AWS. Candidly, some AI assistance was used for the web design.
+                    </p>
+                    
+                    <p>
+                        <span class="project-title">Skills/tools used</span> - HTML, CSS, Bootstrap, AWS Route 53, AWS S3, Responsive Web Design, AI Assisted Web Development
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 min-width small-break">
+                <div class="d-flex justify-content-center">
+                    <a href="http://a-star.jacksonmdavis.com/">
+                        <img src="images\streamlit.jpg" class="rounded project-img bordered-image" alt="Streamlit A* Search">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">                    
+                    <a href="http://a-star.jacksonmdavis.com/">&lt;Project&gt;</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/jacksonmdavis/davis_ai/tree/main/A_star_streamlit">&lt;Source code&gt;</a>
+                </div>
+            </div>
+
+            <div class="col-md-8 d-flex align-items-top">
+                <div class="project-description">
+                    <p>
+                        <a href="http://a-star.jacksonmdavis.com/"><strong class="project-title">Streamlit A* Search</strong></a> - To present some of my code for non-technical users, I used Streamlit to make a simple purely-python webapp demonstrating A* search.  The real value, though, was practicing a complete deployment pipeline: github -> docker -> nginx -> AWS EC2 -> AWS Route 53 -> you!
+                    </p>
+                    
+                    <p>
+                        <span class="project-title">Skills/tools used</span> - Python, Streamlit, Git/Github, Docker, Nginx, Ubuntu Server, AWS EC2, Search Algorithms
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 min-width small-break">
+                <div class="d-flex justify-content-center">
+                    <a href="https://github.com/jacksonmdavis/davis_ai">
+                        <img src="images\github 2.jpg" class="rounded project-img bordered-image" alt="Github repository">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">                    
+                    <a href="https://github.com/jacksonmdavis/davis_ai">&lt;Source code&gt;</a>
+                </div>
+            </div>
+
+            <div class="col-md-8 d-flex align-items-top">
+                <div class="project-description">
+                    <p>
+                        <a href="https://github.com/jacksonmdavis/davis_ai"><strong class="project-title">Davis_ai Github Repository</strong></a> - Most of my coding work has been done in a combination of Python and Jupyter Notebooks.  This repository contains some custom ML classifiers for school project use, along with a visual guide for each, and an example of a fully-documented KNN notebook.
+                    </p>
+                    
+                    <p>
+                        <span class="project-title">Skills/tools used</span> - Python, Jupyter notebooks, Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, Data exploration and processing, Git/GitHub
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 min-width small-break">
+                <div class="d-flex justify-content-center">
+                    <a href="https://github.com/jacksonmdavis/CPP-Address-Book">
+                        <img src="images\address-book.jpg" class="rounded project-img bordered-image" alt="C++ Address Book">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">                    
+                    <a href="https://github.com/jacksonmdavis/CPP-Address-Book">&lt;Source code&gt;</a>
+                </div>
+            </div>
+
+            <div class="col-md-8 d-flex align-items-top">
+                <div class="project-description">
+                    <p>
+                        <a href="https://github.com/jacksonmdavis/CPP-Address-Book"><strong class="project-title">C++ Address Book</strong></a> - Most of my undergraduate-level CS work was done in C++, and this serves as a pretty good demo of what I learned during that time.  It is an OOP-style CLI app that creates and maintains a simple address book.  Emphasis is on data structures, search and sorting algorithms, custom serialization, and OOP techniques such as classes and class templates.
+                    </p>
+                    
+                    <p>
+                        <span class="project-title">Skills/tools used</span> - C++, CLI, Templates, OOP, Data Structures, Serialization
+                    </p>
+                </div>
+            </div>
+        </div>        
 
     </div>
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
