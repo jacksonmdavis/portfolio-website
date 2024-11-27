@@ -78,17 +78,17 @@ h2, h3 {
 }
 
 h1 {
-    color: #f39c12; /* Accent color for headings */
+    color: #f39c12; 
     font-size: 30px;
 }
 
 a {
-    color: #f39c12; /* Link color */
+    color: #f39c12; 
 
 }
 
 a:hover {
-    color: #9e7e27; /* Link hover color */
+    color: #9e7e27; 
 
 }
 
@@ -96,6 +96,15 @@ a:hover {
     padding: 20px;
 } */
 
-
+button {
+    background-color: #f39c12;
+    color: rgba(34, 34, 48, 0.8);
+    border: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
 
 
